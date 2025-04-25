@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantum Sensor for Flexible Electronics Testing</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+      color: #1f2937;
+      scroll-behavior: smooth;
+    }
+    .section-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    .section-card h2 {
+      transition: all 0.3s ease;
+    }
+    .section-card h2:hover {
+      color: #1e40af;
+      transform: scale(1.05);
+    }
+    .caption, .fun-fact {
+      display: none;
+    }
+    .caption.active, .fun-fact.active {
+      display: block;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .diagram-img {
+      transition: transform 0.3s ease;
+    }
+    .diagram-img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  
+<!-- Header -->
+  <header class="text-white text-center py-8">
+    <p class="mt-1"><h2 class="text-4xl font-bold">Creative Technology</h2></p>
+    <h1 class="text-4xl font-bold">Quantum Sensor for Flexible Electronics</h1>
+  </header>
+
+<!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-4 py-6">
+
+<!-- Introduction -->
+    <section class="section-card">
+      <h2 class="text-2xl font-semibold text-blue-700">Introduction to Quantum Sensors<h2 class="text-lg font-medium text-white">🚀</h2></h2>
+      <p class="mt-2">Quantum sensors are super cool because they measure things crazy accurately using quantum stuff. Since 2025 is all about quantum science, I thought of a new idea to test flexible electronics, like bendable phone screens. I got this idea because foldable phones are coming to Existence now!</p>
+    </section>
+
+<!-- Problem Area -->
+    <section class="section-card">
+      <h2 class="text-2xl font-semibold text-blue-700">Problem Statement<h2 class="text-2xl font-semibold text-blue-700">⚠️</h2></h2>
+      <p class="mt-2">Flexible electronics, like screens in foldable phones or wearable health bands, can break when they bend. Tiny electrical changes happen that normal tools can’t see, so some devices don’t work right. This wastes money and stuff.</p>
+    </section>
+
+<!-- How i found this Out -->
+    <section class="section-card">
+     <h2 class="text-2xl font-semibold text-blue-700 mt-2">How I Found This OUT<h2 class="text-2xl font-semibold text-blue-700">🔍</h2></h2>
+     <p class="mt-2">I started thinking about this problem because I noticed how cool foldable phones and wearable gadgets are getting popular, like the ones I see in ads or use myself! </p>
+     <p>The assignment of Creative Technology said to pick a problem tied to quantum tech and SDG 9, and since I’m in Electronics Engineer, I focused on electronics. </p>
+     <p>I remembered that bending these devices a lot can make them break, and I wondered why some screens fail after a while. I thought about how regular tools might not catch tiny issues, especially with bendable stuff, which led me to this idea. </p>
+     <p>It felt like a real challenge in making electronics better, so I dug into it for my project!</p>
+    </section>
+
+<!-- Need for Solution -->
+    <section class="section-card">
+      <h2 class="text-2xl font-semibold text-blue-700">Need for Solution<h2 class="text-2xl font-semibold text-blue-700">📌</h2></h2>
+      <p class="mt-2">When flexible electronics fail, companies lose cash and throw away broken devices, which is bad for the environment. Better testing makes gadgets last longer and saves resources. </p>
+      <p>This helps SDG 9 - Industry, Innovation, and Infrastructure, which is about making industries better.</p>
+    </section>
+
+<!-- Proposed Solution -->
+    <section class="section-card">
+      <h2 class="text-2xl font-semibold text-blue-700">Proposed Solution<h2 class="text-2xl font-semibold text-blue-700">💡</h2></h2>
+      <p class="mt-2">I came up with a quantum electrometer! It uses quantum tunneling to catch super tiny electrical changes in flexible circuits. It checks bendable screens while they’re made to make sure they work after bending. This is new because nobody’s doing this with quantum sensors yet!</p>
+      <div class="mt-4 text-center">
+       <a href="https://drive.google.com/file/d/14VyQLQLu6_4VEa6xU2qYl_4Kt1tY8w87/view?usp=drive_link" target="_blank" class="inline-block">
+       <span class="text-blue-600 hover:text-blue-800 underline">Click here to Have a Look on Sensor Diagram</span></a>
+       <p> <br> </p>
+       <button onclick="showCaption()" class="mt-3 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Show Sensor Info</button>
+       <p id="caption" class="caption mt-2 text-sm text-gray-600">Wow, check out my quantum electrometer! The black box in the middle uses those purple wavy lines—quantum tunneling—to spot tiny electrical changes, like the fault on the blue flexible circuit! The gray bending apparatus bends the circuit to test it, and the white data system on the right shows the results with a graph. It’s a new idea I came up with because foldable phones need better testing. This helps SDG 9 by making electronics tougher and cutting waste—cool, right? The ‘143.7 µV’ shows how sensitive it is, catching issues 10 times better than old tools!</p>
+      </div>
+    </section>
+
+<!-- Benefits -->
+    <section class="section-card">
+     <h2 class="text-2xl font-semibold text-blue-700">Possible Effectiveness of solution/Benefits<h2 class="text-2xl font-semibold text-blue-700">📈</h2></h2>
+       <p> <br> </p>
+
+       <p class="mt-2">This sensor is 10 times better at finding electrical issues than regular tools, which is awesome! 
+       <p>It makes sure flexible screens and wearables work great, even after tons of bending. </p>
+       <p>It saves money by catching problems early—companies won’t throw away as many broken devices! </p>
+       <p>Plus, it speeds up testing so factories can make more gadgets faster. </p>
+       <p>It’s perfect for SDG 9 by making electronics manufacturing smarter and greener. </p>
+       <p>I think it could even help make foldable phones last longer, which would be super cool for everyone! </p>
+       <p>It might even help make wearable health bands that never glitch during workouts!</p> 
+       <p> <br> </p>
+
+       <p class="mt-2">Another cool thing is that my quantum electrometer can help factories spot issues before they become big problems. 
+       <p>Imagine a foldable phone screen that fails after a week—my sensor catches those tiny electrical glitches early, so companies can fix them right away. </p>
+       <p>This means happier customers and less stuff ending up in the trash, which is a win for SDG 9!</p>
+       <p> <br> </p>
+
+       <p class="mt-2">Plus, this sensor makes testing super easy for workers! 
+       <p>It’s like having a smart helper that automatically checks every bendable screen without slowing things down. </p>
+       <p>I think it could let factories make more gadgets in less time, which is great for keeping up with all the new tech like foldable phones and smart watches!</p>
+       <p> <br> </p>
+
+       <p class="mt-2">What’s really exciting is how my electrometer could inspire new gadgets! By making sure flexible electronics are tough, </p>
+       <p>it might lead to things like bendable laptops or clothes with built-in sensors that never break. That would push electronics forward, making SDG 9 proud by creating innovative,</p>
+       <p>long-lasting tech for the future!</p>
+    </section>
+
+<!-- Fun Fact -->
+    <section class="section-card">
+     <h2 class="text-2xl font-semibold text-blue-700">Conclusion for ALL THIS<h2 class="text-2xl font-semibold text-blue-700">&#128071;</h2></h2>
+     <button onclick="showFunFact()" class="mt-3 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">What is It!</button>
+     <p id="fun-fact" class="fun-fact mt-2 text-sm text-gray-600">In conclusion, the quantum electrometer for flexible electronics offers a game-changing way to detect ultra-small electrical faults in devices like foldable phones and wearables. By using quantum tunneling, it ensures better product reliability, reduces electronic waste, and supports faster, smarter manufacturing—perfectly aligning with SDG 9 (Industry, Innovation, and Infrastructure). This innovative idea not only helps companies save resources but also encourages the development of futuristic gadgets that are both durable and sustainable. With this, we take a step closer to building a smarter, greener tech world.</p>
+    </section>
+
+<!-- References -->
+    <section class="section-card">
+     <h2 class="text-2xl font-semibold text-blue-700">References for more Information and Research<h2 class="text-2xl font-semibold text-blue-700">📚</h2></h2>
+     <ul class="list-disc pl-6 mt-2">
+     <li>https://research.aimultiple.com/quantum-sensors/</li>
+     <li>www.nature.com/articles/s41528-023-00268-6.</li>
+     </ul>
+    </section>
+  </main>
+
+<!-- Footer -->
+  <footer class="bg-blue-800 text-white text-center py-6">
+    <p>Report by Purushottam Lokhande | PRN: 202401070145 | Roll No: ET1-40 | AI(02)-Batch(3) | SDG 9</p>
+  </footer>
+
+<!-- JavaScript -->
+  <script>
+    function showCaption() {
+      const caption = document.getElementById('caption');
+      caption.classList.toggle('active');
+    }
+    function showFunFact() {
+      const funFact = document.getElementById('fun-fact');
+      funFact.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
